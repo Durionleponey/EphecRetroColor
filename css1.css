@@ -1,0 +1,172 @@
+/* Ephec retro color : ce css à été repris et modifié depuis une ancienne version du portal de L'ephec
+ */
+
+
+header {
+    width: 0%;
+    height: 15%;
+    max-height: 120px;
+    background-color: rgb(255,20,147);
+    border-bottom: 1px solid #3c3c50;
+}
+
+body {
+    font-family: 'Segoe UI Light', sans-serif;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(121, 134, 181) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.footer_container {
+    position: relative;
+    min-height: 50px;
+    height: 9%;
+    width: 100%;
+    background-color: rgb(76, 108, 150);
+    margin: auto;
+    bottom: 0;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1175px;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link_container {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.boxgrid_small {
+    height: 196px;
+    
+    transition: all 0.5s ease;
+}
+
+    .boxgrid_small:hover {
+        background-position: right;
+        background-repeat: no-repeat;
+        opacity: 1;
+        box-shadow: inset 0 0 0 5px #ffffff;
+    }
+
+    .boxgrid_small a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed','Segoe UI WPC','Segoe UI',Verdana,sans-serif;
+        font-size: 18px;
+    }
+
+    .boxgrid_small .img2 {
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boxgrid_small p {
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .boxgrid_small h3 {
+        font-size: 15px;
+        font-family: Segoe UI Light,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+        font-weight: lighter;
+        color: #FFFFFF;
+    }
+
+.img2 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 62px;
+}
+
+.title {
+    font-size: 33px;
+    font-family: Lato,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.bottom-link-left {
+    font-size: 16px;
+    font-family: 'Open Sans Condensed','Segoe UI WPC','Segoe UI',Verdana,sans-serif;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+
+.bottom-link-right {
+    font-size: 16px;
+    font-family: 'Open Sans Condensed','Segoe UI WPC','Segoe UI',Verdana,sans-serif;
+    color: white;
+    float: right;
+    padding: 10px;
+}
+
+@media (max-width: 576px) {
+
+    .title {
+        font-size: 25px;
+    }
+
+    .img2 {
+        width: 100%;
+        max-width: 130px;
+        height: auto;
+        font-size: 30px;
+    }
+
+    .boxgrid_small {
+        display: block;
+        height: 70px;
+        opacity: 1;
+    }
+
+        .boxgrid_small a {
+            display: grid;
+        }
+
+        .boxgrid_small p {
+            margin-top: 20px;
+            float: right;
+            position: absolute;
+        }
+
+        .boxgrid_small .img2 {
+            width: 45px;
+            height: 45px;
+            margin: 12px 15px 15px auto;
+        }
+
+    .bottom-link-right {
+        text-align: right;
+        float: left;
+        margin-left: 25px;
+    }
+
+    .bottom-link-left {
+        text-align: center;
+        float: left;
+        margin-left: 25px;
+    }
+}

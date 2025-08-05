@@ -1,0 +1,358 @@
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="2.css">
+    
+
+</head>
+
+<br>
+<body>
+
+<div id="welcomdiv" style="display: none">
+    <h3 id="tutoTitle">Bienvenue ! Petites choses avant de commencer...</h3>
+
+    <img src="" id="tuto1" width="270">
+
+    <h4 id="tutoP1">Il y a trois sections. Pour naviguer entre elles, cliquez sur les boutons correspondants dans le menu du haut.</h4>
+
+    <h4 id="tutoP2">💡 Pour accéder rapidement à la plateforme souhaitée, double-cliquez sur le bouton correspondant.<br><br> (Pour continuer appuyez sur le bouton "Compris !")</h4>
+
+
+    <button class="button" id="tutob1">Compris !</button>
+
+
+</div>
+
+<div id="Popup2backscreen" style="display: none">
+</div>
+
+    <center><img src="" id="iconpop" width="30"> <h2 id="titre">Ephec Retro Color</h2></center>
+<br>
+
+
+<center>
+    
+    <div class="radio-inputs" id="radio">
+    <label class="radio">
+      <input type="radio" name="radio" id="eperso" checked="">
+      <span class="name">Eperso</span>
+    </label> 
+    <label class="radio">
+      <input type="radio" name="radio" id="moodle">
+      <span class="name">Moodle</span>
+    </label>
+    <label class="radio">
+        <input type="radio" name="radio" id="portal">
+        <span class="name">Portal</span>
+      </label>
+  </div>
+  <br>
+
+</center>
+
+    <div class="Popup2" id="popupPourFonction" style="display: none">
+
+        <h3 id="h3un">⚠️ Attention ⚠️: Vous allez réinitialiser tous vos paramètres aux valeurs par défaut pour l'extension Ephec Retro Color. Cette action est irréversible.</h3>
+
+        <br>
+        <h3 id="h3deux"></h3>
+
+        <h3 id="h3trois">Icone pour les cours à importer :</h3>
+        <select id="emojiSelector">
+            <option value="2">🐶🐱🦊 Animaux</option>
+            <option value="1">🟥🟩🟦 Carrés de couleur</option>
+            <option value="3">🍎🍊🍇 Fruit</option>
+            <option value="4">😊😂🥲 Émotions</option>
+            <option value="5">🚗✈️🚀 Véhicules</option>
+            <option value="6">⚽🏀🎾 Sports</option>
+            <option value="7">🗺️🗽🏝️ Voyage et Lieux</option>
+            <option value="8">🌟🌙🪐 Étoiles et Astres</option>
+            <option value="9">🌷🌻🌺 Fleurs et Plantes</option>
+        </select>
+
+
+        <br><br>
+        <center>
+        <button type="button"  id="popupAnnuler">Annuler</button>
+        <br>
+        <button type="button"  id="popupValider">Réinitialiser</button>
+        </center>
+
+    </div>
+
+
+
+<div class="ascenseur style-1" id="style-1">
+
+<center>
+    <h3>
+        <!--form pour l'eperso-->
+        <form id="Form1" style="display: inline;">
+            <label for="ancienlogobox">Utiliser l'ancien logo ?</label>
+            <input type="checkbox" id="ancienlogobox">
+            <br>
+            <br>
+            <label for="colorPicker">Utiliser une couleur différente ?</label>
+            <input type="color" id="colorPicker" name="color" value="#000000">
+            <br>
+            <br>
+            <button type="button"  id="resetpicker">Couleur par défaut</button>
+            <br>
+            <button type="button"  id="resetpickerOld">Couleur retro</button>
+            <br>
+            <button type="button" class="randompicker" id="randompicker">Couleur aléatoire</button>
+            <br>
+            <label for="cacher">Cacher le logo ?</label>
+            <input type="checkbox" id="cacher">
+            <br>
+            <br>
+
+
+            
+            <div id="message">
+            <label for="menuu">Anciennes couleurs pour le Menu ?</label>
+            <input type="checkbox" id="menuu">
+            <br>
+            <br>
+            <label for="dark">Thème sombre ?</label>
+            <input type="checkbox" id="dark">
+            </div>
+
+            <br>
+
+            <label for="randomname">Utiliser un nom (connu) de bienvenue aléatoire ?</label>
+            <input type="checkbox" id="randomname">
+            
+            <br>
+            <br>
+            <label for="horaire">Afficher mon horaire quand j'arrive sur l'Eperso ?</label>
+            <input type="checkbox" id="horaire">
+
+
+        </form>
+
+        <!--form pour le moodle-->
+        <form id="Form2" style="display: none;">
+            <label for="ancienlogobox2">Utiliser l'ancien logo ?</label>
+            <input type="checkbox" id="ancienlogobox2">
+            <br>
+            <br>
+            <div style="display: none">
+            <label for="colorPicker">Utiliser une couleur différente ?</label>
+            <input type="color" id="colorPicker2" name="color" value="#fd7e14">
+            <br>
+            <br>
+            <button type="button"  id="resetpicker2">Couleur par défaut</button>
+            <br>
+            <button type="button" class="randompicker" id="randompicker2">Couleur aléatoire</button>
+            <br>
+            </div>
+        
+            <label for="cacher2">Cacher le logo ?</label>
+            <input type="checkbox" id="cacher2">
+            <br>
+            <br>
+        
+            <label for="autologin2">Se reconnecter automatiquement à Moodle ?</label>
+            <input type="checkbox" id="autologin2">
+            <br>
+            <br>
+        
+            <label for="timer2">Cacher le timer pendant les Quizz ?</label>
+            <input type="checkbox" id="timer2">
+            <br>
+            <br>
+
+            <label for="timer22">Utiliser la zone du timer pour masquer ou afficher le timer ?</label>
+            <input type="checkbox" id="timer22">
+            <br>
+            <br>
+
+
+            <label id="ButmenuBarresDuHaut">Afficher options barres du haut...⤵️</label>
+            <br>
+            <br>
+
+
+
+            <div id="menuBarresDuHaut" style="display: none">
+                <br>
+
+            <label for="barresduhaut">Cacher toutes les barres du haut ?</label>
+            <input type="checkbox" id="barresduhaut">
+            <br>
+            <br>
+        
+            <label for="barresduhaut1">Cacher la barre du haut avec le nom ? (Toujours visible dans Accueil)</label>
+            <input type="checkbox" id="barresduhaut1">
+            <br>
+            <br>
+
+            <label for="barresduhaut2">Cacher la barre du haut avec le logo et l'intitulé du cours ? </label>
+            <input type="checkbox" id="barresduhaut2">
+            <br>
+            <br>
+
+            <label for="barresduhaut3">Cacher la barre du haut avec les menus Accueil, Tableau de bord ect ?</label>
+            <input type="checkbox" id="barresduhaut3">
+                <br><br>
+                <label>💡Si vous cachez la barre avec les menus Accueil, Tableau de bord ect. Une bulle sera affichée pour vous permettre de revenir au tableau de bord ou à l'accueil. </label>
+                <br>
+                <br>
+                <label for="barresduhaut4">Afficher la bulle uniquement lorsque la souris se déplace vers le coin supérieur gauche de l'écran ?</label>
+                <input type="checkbox" id="barresduhaut4">
+
+                <br>
+                <br>
+
+
+            </div>
+
+        
+            <label for="ensemble">Remplacer tableau de bord par "Vue d’ensemble des cours" avec option pour masquer des cours non pertinents. Inclut des fonctionnalités de tri et de recherche, ainsi que l'utilisation de couleurs variées pour une reconnaissance rapide</label>
+            <input type="checkbox" id="ensemble">
+            <br>
+            <br>
+
+                Pour masquer un cours, utilisez les 3 petits points pour faire apparaître le menu et sélectionnez "Retirer de l'affichage"
+            <br>
+            <br>
+            <label for="pied">Cacher le pied de page ?</label>
+            <input type="checkbox" id="pied">
+            <br>
+            <br>
+            <label for="hideAcces">Cacher la bulle "Accessibilité" ?</label>
+            <input type="checkbox" id="hideAcces">
+            <br>
+
+
+        </form>
+
+
+
+
+
+        <!--form pour les settings-->
+
+
+        <form id="Form4" style="display: none;">
+            
+
+            <label for="modeProf" id="modeProfexplication">Mode enseignant ?</label>
+            <input type="checkbox" id="modeProf">
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <button type="button"  id="resetMemory">Restaurer les paramêtres par défaut</button>
+
+            <div class="Popup" id="resetMemory3" style="display: none">
+
+                <h3>⚠️ Attention ⚠️: Vous allez réinitialiser tous vos paramètres aux valeurs par défaut pour l'extension Ephec Retro Color. Cette action est irréversible.</h3>
+                <button type="button"  id="resetMemory4">Annuler</button>
+                <br>
+                <button type="button"  id="resetMemory2">Réinitialiser</button>
+            </div>
+
+            <br><br><br>
+            <button type="button"  id="retour">Retour</button>
+            
+        </form>
+    </h3>
+
+    
+</center></div>
+
+
+
+<!--form pour le portal-->
+
+<center id="fullFormPortal" style="display: none"><h3>
+
+
+<div class="ascenseur2 style-1" id="ascen2">
+
+    <div class="portalEditHTML" style="display: none"><br><button>Terminer</button></div>
+    <form id="Form3" style="display: none;">
+
+        <div id="portalSettings" style="display: none">
+            <label for="portalAuLancement">Afficher la section portal au lancement d'Ephec Retro Color ?</label>
+            <input type="checkbox" id="portalAuLancement">
+            <br>
+            <br>
+            <label for="hideLogoPortal">Masquer le logo Ephec Retro Color pour agrandir la section portal ?</label>
+            <input type="checkbox" id="hideLogoPortal">
+            <br>
+            <br>
+
+        </div>
+
+
+
+        <div id="Form33"></div>
+
+    </form>
+
+
+
+    <div class="portalEditHTML" style="display: none"><button>Terminer</button></div>
+</div>
+
+</h3></center>
+
+
+
+
+<center id="notifrefeshMain" style="display: flex; justify-content: center; align-items: center; bottom: 5px;">
+    <div id="notifrefesh" style="display: flex; gap: 20px;">
+        <div id="notif" style="color: rgb(83, 232, 83); display: none; font-size: 12px;"><h3>✅ Sauvegardé!</h3></div>
+        <div id="refresh" style="color: rgb(25, 38, 234); display: none; font-size: 12px;"><h3><a id="link" href="https://eperso.ephec.be/" target="_blank">Rafraîchir ?</a></h3></div>
+    </div>
+</center>
+
+<div id="notifrefesh2" style="display: flex; justify-content: center; align-items: center;">
+    <div id="notif2" style="color: rgb(238, 50, 50); position: relative; display: none; font-size: 12px; margin-top: 10px;">
+        <h3>👇Scrollez pour plus d'options</h3>
+    </div>
+</div>
+
+
+
+
+
+<div class="setting">
+    <span id="setting">
+        <img src="" id="iconpopset" width="20">
+    </span>
+</div>
+
+
+<div class="version">
+    <span id="Version">
+        <a href="https://chromewebstore.google.com/detail/ephec-retro-color/fkkpilbljaenegkoohnhgicmmbjfafom?hl=fr" target="_blank">Demandes/Avis</a> v1.4.5
+    </span>
+</div>
+
+<div class="dev">
+    <span id="dev">
+        With ❤ By Robin
+
+
+    </span>
+</div>
+
+
+</div>
+
+</body>
+
+<script src="background.js"></script>
