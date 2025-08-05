@@ -4,7 +4,11 @@ The code is messy, unoptimized, and poorly structured.
 It mainly served as a learning and experimentation phase.
 ⚠️⚠️⚠️
 
-🔗 [Download the extension on the Chrome Web Store](https://chromewebstore.google.com/detail/ephec-retro-color/fkkpilbljaenegkoohnhgicmmbjfafom?hl=fr)
+🔗 [Download the extension on the Chrome Web Store](https://chromewebstore.google.com/detail/ephec-retro-
+
+
+<img width="1270" height="659" alt="1" src="https://github.com/user-attachments/assets/fe2c08a5-df51-474c-94e4-54b6009ae491" />
+color/fkkpilbljaenegkoohnhgicmmbjfafom?hl=fr)
 
 ![pub4-final](https://github.com/user-attachments/assets/b30fb451-69cf-447d-96f6-81307e540255)
 <img width="640" height="400" alt="2024-09-14 at 12 20 08 in Google Chrome" src="https://github.com/user-attachments/assets/f7d70356-b412-436b-9679-97c48c34a60f" />
