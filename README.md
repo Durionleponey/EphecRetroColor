@@ -1,5 +1,5 @@
 ⚠️⚠️⚠️⚠️ 
-An old project made when I lacked proper programming foundations.
+An old project.
 The code is messy, unoptimized, and poorly structured.
 It mainly served as a learning and experimentation phase.
 ⚠️⚠️⚠️
