@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Ephec Retro Color",
-  "version": "1.4.5",
+  "version": "1.5",
   "description": "Personnalisez votre espace EPHEC avec des couleurs et des options sur mesure !",
   "icons": {
     "48": "icon.png"

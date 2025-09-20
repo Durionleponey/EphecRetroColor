@@ -390,6 +390,13 @@ button {
 
 }
 
+input[type='checkbox'] {
+    width: 11px;
+    height: 11px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
 input[type='checkbox'], #ButmenuBarresDuHaut, input, button {
     cursor: pointer;
 }
