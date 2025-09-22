@@ -390,7 +390,7 @@ button {
 
 }
 
-input[type='checkbox'] {
+#form33 input[type='checkbox'] {
     width: 11px;
     height: 11px;
     transform: scale(1.5);
