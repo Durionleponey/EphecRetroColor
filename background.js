@@ -138,9 +138,9 @@ function makePortal(portalData){
 
     }
 
-    if (gid("modeProf").checked && document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/Horaire']")){
+    if (gid("modeProf").checked && document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/HoraireV2']")){
 
-        document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/Horaire']").href = "http://eperso.ephec.be/ProfHoraire/Horaire"
+        document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/HoraireV2']").href = "http://eperso.ephec.be/ProfHoraire/Horaire"
 
     }
 
@@ -592,7 +592,7 @@ document.getElementById('message').addEventListener('mouseover', function() {
                     if(horaireracprof == true){
                         window.open('https://eperso.ephec.be/ProfHoraire/Horaire', '_blank');
                     }else{
-                        window.open('https://eperso.ephec.be/HeHoraire/Horaire', '_blank');
+                        window.open('https://eperso.ephec.be/HeHoraire/HoraireV2', '_blank');
 
                     }
         
@@ -917,7 +917,7 @@ chrome.storage.local.get(["ancienlogoboul","randomname","colorchoice","menuu","h
                 "name": "Horaire cours",
                 "enable": true,
                 "emoji": "🕑",
-                "link": "https://eperso.ephec.be/HeHoraire/Horaire",
+                "link": "https://eperso.ephec.be/HeHoraire/HoraireV2",
                 "use": 0,
                 "luse": "16/08/2024 14:30",
                 "pined": false
@@ -1272,9 +1272,9 @@ chrome.storage.local.get(["ancienlogoboul","randomname","colorchoice","menuu","h
 
     setBigPortal()
 
-    if (gid("modeProf").checked && document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/Horaire']")){
+    if (gid("modeProf").checked && document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/HoraireV2']")){
 
-        document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/Horaire']").href = "http://eperso.ephec.be/ProfHoraire/Horaire"
+        document.querySelector(".ElemPortal[href='https://eperso.ephec.be/HeHoraire/HoraireV2']").href = "http://eperso.ephec.be/ProfHoraire/Horaire"
 
     }
 

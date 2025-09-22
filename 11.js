@@ -26,7 +26,7 @@ chrome.storage.local.get(["horaire","ancienlogoboul","randomname","cacher","mode
                 return
 
             }else{
-                window.location.href = 'https://eperso.ephec.be/HeHoraire/Horaire';
+                window.location.href = 'https://eperso.ephec.be/HeHoraire/HoraireV2';
                 return
             }
 

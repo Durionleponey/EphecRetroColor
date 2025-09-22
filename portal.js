@@ -33,7 +33,7 @@
                     "name": "Horaire cours",
                     "enable": true,
                     "emoji": "🕑",
-                    "link": "https://eperso.ephec.be/HeHoraire/Horaire",
+                    "link": "https://eperso.ephec.be/HeHoraire/HoraireV2",
                     "use": 0,
                     "luse": "16/08/2024 14:30",
                     "pined": false
