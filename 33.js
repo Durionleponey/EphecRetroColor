@@ -395,8 +395,8 @@ chrome.storage.local.get(["colorchoice2","ancienlogoboul2", "autologin2","cacher
 
 
 
-                    link = (element.querySelector("a").href);
-                    title = (element.querySelector("a").title);
+                    link = (element.querySelector("h3 a").href);
+                    title = (element.querySelector("h3 a").title);
                     title = title.split('[')[0].trim();
 
 
