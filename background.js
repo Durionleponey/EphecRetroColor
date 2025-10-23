@@ -1710,8 +1710,8 @@ function test(){//fonction qui est en fait la fonction de sauvegarde
         ancienlogoboultemp = `
 
     
-    .logo-ephec-eperso {
-        content: url('${newImageURL}') !important;
+    #logo-ephec {
+        data: url('${newImageURL}') !important;
 
     }
 `;
@@ -1823,7 +1823,7 @@ h3 {
     ${cacherTemp};
     }
     
-    .divwelcom{
+    div:has(> span.fas.fa-user-circle) {
     ${welcomTemp};
 }
     ${menuTemp}

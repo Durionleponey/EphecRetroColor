@@ -7,7 +7,7 @@ let couleur2 = "#fd7e14"
 
 //selection de 2 éléments
 
-let poire = document.querySelector('.logo-ephec-eperso');
+//let poire = document.querySelector('.logo-ephec-eperso');
 
 
 
@@ -50,7 +50,7 @@ chrome.storage.local.get(["horaire","ancienlogoboul","randomname","cacher","mode
             //pour le favicon
             let newFaviconURL = chrome.runtime.getURL('favicon.ico');
 
-            console.log(newFaviconURL)
+            //console.log(newFaviconURL)
             let favicon = document.querySelector("link[rel~='icon']");
             favicon.href = newFaviconURL;
 
@@ -69,7 +69,6 @@ chrome.storage.local.get(["horaire","ancienlogoboul","randomname","cacher","mode
         let rand = data.randomname;
 
         if(rand == true){
-            let customdiv = document.querySelector('.divwelcom');
 
             const personnages = [
                 "POTTER Harry",
@@ -111,11 +110,9 @@ chrome.storage.local.get(["horaire","ancienlogoboul","randomname","cacher","mode
             let personnageaupif = personnages[Math.floor(Math.random() * personnages.length)];
 
 
-            customdiv.innerHTML = "Bienvenue " + personnageaupif + " !"
+            document.querySelector('div span.fas.fa-user-circle').parentElement.innerHTML = "Bienvenue " + personnageaupif + " !"
 
 
-
-            customdiv.style.display = 'inline';
 
 
 
