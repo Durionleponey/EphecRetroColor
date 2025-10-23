@@ -1816,8 +1816,8 @@ h3 {
 
 
     let cssCode = `
-    .navbar-dark.bgcolor-orange-ephec{
-    background-color: ${colorchoice};
+    .navbar{
+    background-color: ${colorchoice} !important;
 }
     #logo-ephec{
     ${cacherTemp} !important;
