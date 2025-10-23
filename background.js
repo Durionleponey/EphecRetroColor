@@ -1819,8 +1819,8 @@ h3 {
     .navbar-dark.bgcolor-orange-ephec{
     background-color: ${colorchoice};
 }
-    .logo-ephec-eperso{
-    ${cacherTemp};
+    #logo-ephec{
+    ${cacherTemp} !important;
     }
     
     div:has(> span.fas.fa-user-circle) {
